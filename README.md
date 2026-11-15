@@ -125,6 +125,12 @@ slice (a fix that only works after a prerequisite).
   environments differing only in patch level are invisible to it.
 - The consolidation pass writes derived CONFIRMED_FOR edges — lookups still
   read the episode log, so a consolidation bug can't corrupt memory.
+- On the live self-hosted node, roughly 1 lookup in 40 saw a TRIED_OK/FAIL
+  row arrive without the fix's properties; those candidates are skipped and
+  the lookup falls back to the rest. Root cause not isolated — flagged as a
+  HydraDB dialect/consistency question, not worked around silently.
+- The real tier replays cached container verdicts; fix order per scenario is
+  shuffled deterministically so the no-memory arm is not trivially perfect.
 - The synthetic tier is synthetic: the hidden rules are hand-designed to
   contain the hard cases, and results there bound, not prove, real-world
   performance. That's what the Docker tier is for.
