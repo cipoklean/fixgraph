@@ -1,0 +1,4456 @@
+{
+  "tier": "synthetic",
+  "rounds": 5,
+  "max_attempts": 4,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "scenario_count": 105,
+  "token_counting": "tiktoken cl100k_base",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generated": "2026-11-15T22:15:09Z",
+  "runs": [
+    {
+      "seed": 0,
+      "arm": "no-memory",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.21839080459770116,
+          "avg_attempts": 2.7586206896551726,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.16666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6666666666666665
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.21839080459770116,
+          "avg_attempts": 2.7586206896551726,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6666666666666665
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.16666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.21839080459770116,
+          "avg_attempts": 2.7586206896551726,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.16666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6666666666666665
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.2761904761904762,
+          "avg_attempts": 2.6,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.8181818181818183
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9444444444444444
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.22727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.772727272727273
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.727272727272727
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.2761904761904762,
+          "avg_attempts": 2.6,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.22727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.772727272727273
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9444444444444444
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.8181818181818183
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.1818181818181817
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.727272727272727
+            }
+          }
+        }
+      ],
+      "seconds": 0.0
+    },
+    {
+      "seed": 0,
+      "arm": "vector",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7701149425287356,
+          "avg_attempts": 1.528735632183908,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 612.8850574712644,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2528735632183907,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 643.1954022988506,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2758620689655173,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 641.7126436781609,
+          "tags": {
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8095238095238095,
+          "avg_attempts": 1.4,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 640.1428571428571,
+          "tags": {
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.8333333333333334,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.7272727272727273,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4545454545454546
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8380952380952381,
+          "avg_attempts": 1.361904761904762,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 640.5142857142857,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3636363636363635
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ],
+      "seconds": 60.4
+    },
+    {
+      "seed": 0,
+      "arm": "vector+env-filter",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7126436781609196,
+          "avg_attempts": 1.7126436781609196,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 510.28735632183907,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.7222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.8888888888888888
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 634.8965517241379,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 635.7126436781609,
+          "tags": {
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.819047619047619,
+          "avg_attempts": 1.4095238095238096,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 594.6095238095238,
+          "tags": {
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.9545454545454546,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0454545454545454
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.3238095238095238,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 641.4571428571429,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ],
+      "seconds": 52.0
+    },
+    {
+      "seed": 0,
+      "arm": "fixgraph",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7586206896551724,
+          "avg_attempts": 1.5172413793103448,
+          "fix_rate": 0.9425287356321839,
+          "ctx_tokens": 143.17241379310346,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.16666666666666666,
+              "avg_attempts": 3.6666666666666665
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9195402298850575,
+          "avg_attempts": 1.2183908045977012,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 165.9655172413793,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.160919540229885,
+          "fix_rate": 0.9655172413793104,
+          "ctx_tokens": 163.2528735632184,
+          "tags": {
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.5,
+              "avg_attempts": 3.3333333333333335
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8857142857142857,
+          "avg_attempts": 1.1333333333333333,
+          "fix_rate": 1.0,
+          "ctx_tokens": 169.73333333333332,
+          "tags": {
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.9238095238095239,
+          "avg_attempts": 1.0761904761904761,
+          "fix_rate": 1.0,
+          "ctx_tokens": 164.41904761904763,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            }
+          }
+        }
+      ],
+      "seconds": 114.7
+    },
+    {
+      "seed": 1,
+      "arm": "no-memory",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.1839080459770115,
+          "avg_attempts": 2.67816091954023,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.2222222222222223
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.1839080459770115,
+          "avg_attempts": 2.67816091954023,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.2222222222222223
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.1839080459770115,
+          "avg_attempts": 2.67816091954023,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.9444444444444446
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4444444444444446
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.3333333333333333,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.2222222222222223
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.888888888888889
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.2571428571428571,
+          "avg_attempts": 2.4761904761904763,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.13636363636363635,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.772727272727273
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9090909090909092
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9090909090909092
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.2571428571428571,
+          "avg_attempts": 2.4761904761904763,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.13636363636363635,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.772727272727273
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9090909090909092
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9090909090909092
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.2727272727272727,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        }
+      ],
+      "seconds": 0.0
+    },
+    {
+      "seed": 1,
+      "arm": "vector",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7701149425287356,
+          "avg_attempts": 1.471264367816092,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 615.7816091954023,
+          "tags": {
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1666666666666667
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2528735632183907,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 647.5747126436781,
+          "tags": {
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2873563218390804,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 644.3678160919541,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8,
+          "avg_attempts": 1.438095238095238,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 641.6761904761905,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.6363636363636364,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7272727272727273
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1818181818181819
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.8333333333333334,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.6363636363636362
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8285714285714286,
+          "avg_attempts": 1.380952380952381,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 641.6190476190476,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.7272727272727273,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6363636363636365
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        }
+      ],
+      "seconds": 49.9
+    },
+    {
+      "seed": 1,
+      "arm": "vector+env-filter",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7126436781609196,
+          "avg_attempts": 1.632183908045977,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 495.0574712643678,
+          "tags": {
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.7222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 635.4137931034483,
+          "tags": {
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 637.5977011494252,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8,
+          "avg_attempts": 1.4190476190476191,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 603.1142857142858,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1363636363636365
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1818181818181819
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6111111111111112
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5454545454545454
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5454545454545454
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.3142857142857143,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 638.7047619047619,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        }
+      ],
+      "seconds": 48.8
+    },
+    {
+      "seed": 1,
+      "arm": "fixgraph",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7586206896551724,
+          "avg_attempts": 1.4827586206896552,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 134.17241379310346,
+          "tags": {
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1666666666666667
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9195402298850575,
+          "avg_attempts": 1.2183908045977012,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 157.35632183908046,
+          "tags": {
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9195402298850575,
+          "avg_attempts": 1.2183908045977012,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 150.75862068965517,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.9047619047619048,
+          "avg_attempts": 1.2380952380952381,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 161.33333333333334,
+          "tags": {
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3636363636363635
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.9444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1666666666666667
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.8181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.9238095238095239,
+          "avg_attempts": 1.1904761904761905,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 159.31428571428572,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        }
+      ],
+      "seconds": 135.9
+    },
+    {
+      "seed": 2,
+      "arm": "no-memory",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.2988505747126437,
+          "avg_attempts": 2.6206896551724137,
+          "fix_rate": 0.9540229885057471,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.3888888888888889,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.111111111111111
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.7777777777777777
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.4444444444444446
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.3333333333333333,
+              "avg_attempts": 3.5
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.2988505747126437,
+          "avg_attempts": 2.6206896551724137,
+          "fix_rate": 0.9540229885057471,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.3888888888888889,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.111111111111111
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.7777777777777777
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.4444444444444446
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.3333333333333333,
+              "avg_attempts": 3.5
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.2988505747126437,
+          "avg_attempts": 2.6206896551724137,
+          "fix_rate": 0.9540229885057471,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.3333333333333333,
+              "avg_attempts": 3.5
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.3888888888888889,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.5555555555555554
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.2222222222222222,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.7777777777777777
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3333333333333335
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.1111111111111111,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.2222222222222223
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.4444444444444446
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.4444444444444444,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.111111111111111
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.20952380952380953,
+          "avg_attempts": 2.8095238095238093,
+          "fix_rate": 0.9619047619047619,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.3181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.590909090909091
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.090909090909091
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.3636363636363638
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.05555555555555555,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.3333333333333333,
+              "avg_attempts": 3.5
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.20952380952380953,
+          "avg_attempts": 2.8095238095238093,
+          "fix_rate": 0.9619047619047619,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.36363636363636365,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.3636363636363638
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.4545454545454546
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.45454545454545453,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.272727272727273
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.05555555555555555,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.3636363636363638
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.3181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.590909090909091
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.090909090909091
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.3333333333333333,
+              "avg_attempts": 3.5
+            }
+          }
+        }
+      ],
+      "seconds": 0.0
+    },
+    {
+      "seed": 2,
+      "arm": "vector",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7471264367816092,
+          "avg_attempts": 1.528735632183908,
+          "fix_rate": 0.9425287356321839,
+          "ctx_tokens": 615.0,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.16666666666666666,
+              "avg_attempts": 3.6666666666666665
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2758620689655173,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 644.0,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.896551724137931,
+          "avg_attempts": 1.2873563218390804,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 641.6091954022988,
+          "tags": {
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8,
+          "avg_attempts": 1.5142857142857142,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 640.2761904761904,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.6363636363636364,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.9090909090909092
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.1818181818181817
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.8333333333333334,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1818181818181819
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8285714285714286,
+          "avg_attempts": 1.4190476190476191,
+          "fix_rate": 0.9523809523809523,
+          "ctx_tokens": 640.5333333333333,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.7272727272727273,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6363636363636365
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.909090909090909
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.909090909090909
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.16666666666666666,
+              "avg_attempts": 3.6666666666666665
+            }
+          }
+        }
+      ],
+      "seconds": 50.4
+    },
+    {
+      "seed": 2,
+      "arm": "vector+env-filter",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.735632183908046,
+          "avg_attempts": 1.6436781609195403,
+          "fix_rate": 0.9425287356321839,
+          "ctx_tokens": 518.3793103448276,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.3333333333333333
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.4444444444444444
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.16666666666666666,
+              "avg_attempts": 3.6666666666666665
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 634.2183908045977,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 636.5402298850574,
+          "tags": {
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.7714285714285715,
+          "avg_attempts": 1.5523809523809524,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 611.3047619047619,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2272727272727273
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1818181818181819
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.090909090909091
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.09090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 3.090909090909091
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.5,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0555555555555554
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1818181818181819
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.3523809523809525,
+          "fix_rate": 0.9523809523809523,
+          "ctx_tokens": 639.0,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.909090909090909
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.18181818181818182,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.909090909090909
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.16666666666666666,
+              "avg_attempts": 3.6666666666666665
+            }
+          }
+        }
+      ],
+      "seconds": 49.2
+    },
+    {
+      "seed": 2,
+      "arm": "fixgraph",
+      "tier": "synthetic",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 87,
+          "first_try": 0.7586206896551724,
+          "avg_attempts": 1.5977011494252873,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 130.05747126436782,
+          "tags": {
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 0.5555555555555556,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 0.6666666666666666,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.7777777777777777
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.5555555555555556
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2222222222222223
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 0.7777777777777778,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.6666666666666667
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 153.16091954022988,
+          "tags": {
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 87,
+          "first_try": 0.9310344827586207,
+          "avg_attempts": 1.206896551724138,
+          "fix_rate": 0.9310344827586207,
+          "ctx_tokens": 151.9655172413793,
+          "tags": {
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "git-ownership": {
+              "n": 18,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "drift": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl-legacy": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve": {
+              "n": 9,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 105,
+          "first_try": 0.8095238095238095,
+          "avg_attempts": 1.3238095238095238,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 151.6095238095238,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.8333333333333334,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2777777777777777
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.2727272727272727
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 105,
+          "first_try": 0.819047619047619,
+          "avg_attempts": 1.2952380952380953,
+          "fix_rate": 0.9428571428571428,
+          "ctx_tokens": 149.17142857142858,
+          "tags": {
+            "eresolve": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm-require": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils-gone": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "ext-managed": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "heldout": {
+              "n": 18,
+              "first_try": 0.8888888888888888,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1111111111111112
+            },
+            "openssl-legacy": {
+              "n": 11,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-ownership": {
+              "n": 22,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "numpy-abi": {
+              "n": 11,
+              "first_try": 0.9090909090909091,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0909090909090908
+            },
+            "ignored-builds": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "drift": {
+              "n": 11,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "chain": {
+              "n": 6,
+              "first_try": 0.0,
+              "fix_rate": 0.0,
+              "avg_attempts": 4.0
+            }
+          }
+        }
+      ],
+      "seconds": 113.1
+    }
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "tier": "real",
+  "rounds": 5,
+  "max_attempts": 4,
+  "seeds": [
+    7
+  ],
+  "scenario_count": 56,
+  "distinct_failures": 7,
+  "token_counting": "tiktoken cl100k_base",
+  "runs": [
+    {
+      "seed": 7,
+      "arm": "no-memory",
+      "tier": "real",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 56,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.1428571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.8571428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1428571428571428
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 56,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.1428571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.8571428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1428571428571428
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 56,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.1428571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.8571428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1428571428571428
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 56,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.1428571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.8571428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1428571428571428
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 56,
+          "first_try": 0.8571428571428571,
+          "avg_attempts": 1.1428571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 0.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.8571428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.1428571428571428
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 2.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "arm": "vector",
+      "tier": "real",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 56,
+          "first_try": 0.9821428571428571,
+          "avg_attempts": 1.0178571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 580.25,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.9821428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0178571428571428
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.875,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.125
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 625.0178571428571,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "arm": "vector+env-filter",
+      "tier": "real",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 56,
+          "first_try": 0.9821428571428571,
+          "avg_attempts": 1.0178571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 224.25,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.9821428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0178571428571428
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.875,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.125
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 602.625,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 624.0,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "arm": "fixgraph",
+      "tier": "real",
+      "metrics": [
+        {
+          "round": 0,
+          "scenarios": 56,
+          "first_try": 0.9821428571428571,
+          "avg_attempts": 1.0178571428571428,
+          "fix_rate": 1.0,
+          "ctx_tokens": 62.80357142857143,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 0.9821428571428571,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0178571428571428
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 0.875,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.125
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 1,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 68.14285714285714,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 68.14285714285714,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 68.14285714285714,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        },
+        {
+          "round": 4,
+          "scenarios": 56,
+          "first_try": 1.0,
+          "avg_attempts": 1.0,
+          "fix_rate": 1.0,
+          "ctx_tokens": 68.14285714285714,
+          "tags": {
+            "real": {
+              "n": 112,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node18": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "eresolve:npm10": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "openssl:node20": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "esm:node22": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "distutils:py312": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "pep668:deb12": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            },
+            "git-dubious": {
+              "n": 8,
+              "first_try": 1.0,
+              "fix_rate": 1.0,
+              "avg_attempts": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

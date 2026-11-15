@@ -1,0 +1,191 @@
+{
+  "distutils:py312": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'distutils'\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": " is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\n"
+      },
+      "1": {
+        "ok": false,
+        "rc": 1,
+        "tail": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'setuptools'\n"
+      },
+      "2": {
+        "ok": false,
+        "rc": 1,
+        "tail": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'setuptools'\n"
+      },
+      "3": {
+        "ok": true,
+        "rc": 0,
+        "tail": " is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\n"
+      }
+    }
+  },
+  "esm:node18": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "pp/app.js:1\nconst m = require(\"pure-esm\"); console.log(m)\n          ^\n\nError [ERR_REQUIRE_ESM]: require() of ES Module /app/node_modules/pure-esm/index.js from /app/app.js not supported.\nInstead change the require of index.js in /app/app.js to a dynamic import() which is available in all CommonJS modules.\n    at Object.<anonymous> (/app/app.js:1:11) {\n  code: 'ERR_REQUIRE_ESM'\n}\n\nNode.js v18.20.8\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": "42\n"
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": "42\n"
+      },
+      "2": {
+        "ok": false,
+        "rc": 1,
+        "tail": "ire() of ES Module /app/node_modules/pure-esm/index.js from /app/app.js not supported.\nInstead change the require of index.js in /app/app.js to a dynamic import() which is available in all CommonJS modules.\n    at Object.<anonymous> (/app/app.js:1:11) {\n  code: 'ERR_REQUIRE_ESM'\n}\n\nNode.js v18.20.8\n"
+      },
+      "3": {
+        "ok": false,
+        "rc": 1,
+        "tail": "ire() of ES Module /app/node_modules/pure-esm/index.js from /app/app.js not supported.\nInstead change the require of index.js in /app/app.js to a dynamic import() which is available in all CommonJS modules.\n    at Object.<anonymous> (/app/app.js:1:11) {\n  code: 'ERR_REQUIRE_ESM'\n}\n\nNode.js v18.20.8\n"
+      }
+    }
+  },
+  "esm:node22": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "es/cjs/loader:1505:32)\n    at Function._load (node:internal/modules/cjs/loader:1309:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)\n    at Module.require (node:internal/modules/cjs/loader:1527:12)\n    at require (node:internal/modules/helpers:147:16)\n    at Object.<anonymous> (/app/app.js:1:11)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n\nNode.js v22.23.5\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": "42\n"
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": "42\n"
+      },
+      "2": {
+        "ok": false,
+        "rc": 1,
+        "tail": "oduleLoad (node:internal/modules/cjs/loader:254:19)\n    at Module.require (node:internal/modules/cjs/loader:1527:12)\n    at require (node:internal/modules/helpers:147:16)\n    at Object.<anonymous> (/app/app.js:1:11)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n\nNode.js v22.23.5\n"
+      },
+      "3": {
+        "ok": false,
+        "rc": 1,
+        "tail": "oduleLoad (node:internal/modules/cjs/loader:254:19)\n    at Module.require (node:internal/modules/cjs/loader:1527:12)\n    at require (node:internal/modules/helpers:147:16)\n    at Object.<anonymous> (/app/app.js:1:11)\n    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n\nNode.js v22.23.5\n"
+      }
+    }
+  },
+  "openssl:node20": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "cuteUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)\n    at node:internal/main/run_main_module:28:49 {\n  opensslErrorStack: [\n    'error:03000086:digital envelope routines::initialization error',\n    'error:0308010C:digital envelope routines::unsupported'\n  ],\n  library: 'digital envelope routines',\n  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v20.20.2\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": ""
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": ""
+      },
+      "2": {
+        "ok": false,
+        "rc": 1,
+        "tail": ""
+      },
+      "3": {
+        "ok": false,
+        "rc": 1,
+        "tail": ""
+      }
+    }
+  },
+  "pep668:deb12": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "ronment for you. Make sure you have pipx installed.\n    \n    See /usr/share/doc/python3.11/README.venv for more information.\n\nnote: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.\nhint: See PEP 668 for the detailed specification.\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": "debconf: delaying package configuration, since apt-utils is not installed\n"
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\n"
+      },
+      "2": {
+        "ok": true,
+        "rc": 0,
+        "tail": "debconf: delaying package configuration, since apt-utils is not installed\n"
+      },
+      "3": {
+        "ok": false,
+        "rc": 1,
+        "tail": "o\ninclude apps of dependent packages, which are listed above. If you are\nattempting to install a library, pipx should not be used. Consider using pip\nor a similar tool instead.\"\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'requests'\n"
+      }
+    }
+  },
+  "git-dubious": {
+    "reproduces": true,
+    "fail_rc": 128,
+    "fail_tail": "fatal: detected dubious ownership in repository at '/repo'\nTo add an exception for this directory, call:\n\n\tgit config --global --add safe.directory /repo\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": ""
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": ""
+      },
+      "2": {
+        "ok": false,
+        "rc": 128,
+        "tail": "fatal: detected dubious ownership in repository at '/repo'\nTo add an exception for this directory, call:\n\n\tgit config --global --add safe.directory /repo\n"
+      },
+      "3": {
+        "ok": false,
+        "rc": 128,
+        "tail": "fatal: detected dubious ownership in repository at '/repo'\nTo add an exception for this directory, call:\n\n\tgit config --global --add safe.directory /repo\n"
+      }
+    }
+  },
+  "eresolve:npm10": {
+    "reproduces": true,
+    "fail_rc": 1,
+    "fail_tail": "pendency conflict, or retry\nnpm error this command with --force or --legacy-peer-deps\nnpm error to accept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /root/.npm/_logs/2026-11-15T11_52_52_596Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-15T11_52_52_596Z-debug-0.log\n",
+    "fixes": {
+      "0": {
+        "ok": true,
+        "rc": 0,
+        "tail": "\nup to date, audited 87 packages in 4s\n\n47 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\n"
+      },
+      "1": {
+        "ok": true,
+        "rc": 0,
+        "tail": "\nup to date, audited 89 packages in 5s\n\n47 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities\n"
+      },
+      "2": {
+        "ok": false,
+        "rc": 1,
+        "tail": "ccept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /root/.npm/_logs/2026-11-15T11_53_25_440Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-15T11_53_25_440Z-debug-0.log\n"
+      },
+      "3": {
+        "ok": false,
+        "rc": 1,
+        "tail": "ccept an incorrect (and potentially broken) dependency resolution.\nnpm error\nnpm error\nnpm error For a full report see:\nnpm error /root/.npm/_logs/2026-11-15T11_53_30_345Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-15T11_53_30_345Z-debug-0.log\n"
+      }
+    }
+  }
+}

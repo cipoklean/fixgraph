@@ -1,0 +1,36 @@
+# HydraDB graph-node for fixgraph — runs on the demo VM.
+# Built from the upstream repo Dockerfile (--target runtime).
+# Plaintext Bolt/HTTP is enabled because this is a demo instance on a
+# private VM; the bearer token is still required on every request.
+services:
+  graph-node:
+    image: hydradb:local
+    container_name: fixgraph-hydradb
+    restart: unless-stopped
+    environment:
+      CLOUD_PROVIDER: local
+      LOCAL_PATH: /data/store
+      GRAPH_NAMESPACE: local
+      GRAPH_ID: default
+      GRAPH_CELL_ID: cell-0
+      GRAPH_CELLS: cell-0
+      GRAPH_DATA_PATH: data
+      GRAPH_ALLOW_PLAINTEXT: "true"
+      GRAPH_AUTH_TOKEN_FILE: /run/auth-token
+      GRAPH_DATA_CACHE_BYTES: "67108864"
+      GRAPH_DATA_CACHE_DIR: /data/cache
+      GRAPH_NODE_ID: node-0
+      GRAPH_BOLT_ADDR: 0.0.0.0:7687
+      GRAPH_ADVERTISED_BOLT_ADDR: 158.180.57.167:17687
+      GRAPH_BOLT_NODE_ADDRESSES: node-0=158.180.57.167:17687
+      GRAPH_HTTP_ADDR: 0.0.0.0:8443
+      GRAPH_ADMIN_ADDR: 0.0.0.0:9090
+      RUST_MIN_STACK: "33554432"
+      RUST_LOG: info
+    volumes:
+      - /opt/fixgraph/data:/data
+      - /opt/fixgraph/auth-token:/run/auth-token:ro
+    ports:
+      - "17687:7687"  # Bolt
+      - "18443:8443"  # HTTP query API
+      - "19090:9090"  # admin /readyz /metrics
