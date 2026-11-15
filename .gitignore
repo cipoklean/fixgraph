@@ -9,3 +9,4 @@ results/*.json
 !results/results_real.json
 !results/README.md
 .env
+demo/DEMO_SCRIPT.md

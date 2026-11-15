@@ -43,7 +43,7 @@ confirmed. The evidence is the part a vector store cannot give.
 ```bash
 # needs: python 3.10+, a reachable HydraDB (see "Running HydraDB")
 pip install -e .[bench,mcp,dev]
-export FIXGRAPH_URL=http://<host>:8443 FIXGRAPH_TOKEN=<token>
+export FIXGRAPH_URL=http://<host>:18443 FIXGRAPH_TOKEN=<token>
 python scripts/probe.py        # verify the node round-trips every shape we use
 python -m fixgraph.bench --tier synthetic --seeds 3 --out results
 # or: make probe && make bench
@@ -56,10 +56,21 @@ share of scenarios fixed on the first try, mean attempts, mean context tokens
 ## Running HydraDB
 
 Built from the upstream Dockerfile (`--target runtime`, Ubuntu 24.04, Rust
-1.99) and run with `deploy/docker-compose.yml`. The demo instance lives on a
-VM at `http://158.180.57.167:8443` (Bolt on 7687) so it stays up for judging;
-plaintext is enabled because it is a throwaway demo node — the bearer token
-is still required on every request.
+1.99) and run with `deploy/docker-compose.yml`. One command brings up the
+node, its object store and its auth token:
+
+```bash
+install -d /opt/fixgraph && head -c 32 /dev/urandom | base64 > /opt/fixgraph/auth-token
+docker compose -f deploy/docker-compose.yml up -d
+export FIXGRAPH_URL=http://127.0.0.1:18443 FIXGRAPH_TOKEN=$(cat /opt/fixgraph/auth-token)
+python scripts/probe.py    # round-trips every query shape we use
+```
+
+Plaintext HTTP is enabled because this is a throwaway local node; the bearer
+token is still required on every request. All numbers in `results/` were
+produced against a self-hosted node on the author's VM (graph `default`,
+cell `cell-0`, namespace `local`). The node is not exposed publicly — the
+submission is this repo plus the recorded demo.
 
 The cloud adapter (`HydraCloud`, BYOG `api.hydradb.com`) is an **untested
 stub** — no API key was available. All queries stay inside the documented
@@ -112,8 +123,10 @@ slice (a fix that only works after a prerequisite).
   `fixgraph_lookup`, `fixgraph_report`, `fixgraph_add_fix`,
   `fixgraph_explain` — drop into any MCP client (Claude Code, Cursor,
   Codex, Devin)
-- **CLI**: `fixgraph run -- <command>` — on non-zero exit it fingerprints
-  the environment, looks up the error, prints the best known fix + evidence
+- **CLI**: `fixgraph lookup "<error text>"` prints ranked fixes with evidence;
+  `fixgraph run -- <command>` wraps any command — on non-zero exit it
+  fingerprints the environment, looks up the error, prints the best known
+  fix + evidence, and passes the exit code through
 
 ## Limits and known weaknesses
 
